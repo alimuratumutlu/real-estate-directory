@@ -1,5 +1,19 @@
-.App {
-  text-align: center;
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em;
+}
+
+.card-title {
+  font-size: 0.9em;
+}
+
+.number {
+  font-size: 0.6em;
+}
+
+.input-short {
+  width: 10%;
+  padding: 0;
 }
 
 .App-logo {
