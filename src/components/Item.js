@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { IoMdCart } from "react-icons/io";
+import { IoMdCart, IoIosBed } from "react-icons/io";
+import { BsPersonFill } from "react-icons/bs";
+import { FaBath } from "react-icons/fa";
+import { AiOutlineFileSearch } from "react-icons/ai";
 
 export default function Item(props) {
   const [adet, setAdet] = useState(0);
@@ -15,40 +18,38 @@ export default function Item(props) {
   };
 
   return (
-    <div className="card rounded shadow-sm pt-3 mb-3">
-      <img src={props.image} className="card-img-top" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title">{props.title}</h5>
-        <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 m-0">
-            <div className="btn-group" role="group" aria-label="Basic example">
+    <div className="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+      <div className="card shadow mb-3" style={{ borderRadius: "100" }}>
+        <img src={props.image} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 m-0 details text-secondary">
+              <span className="d-block">
+                <BsPersonFill size="12" />
+                <span className="align-middle pl-1">6 People</span>
+              </span>
+              <span className="d-block">
+                <IoIosBed size="12" />
+                <span className="align-middle pl-1">2 Bed Rooms</span>
+              </span>
+              <span className="d-block">
+                <FaBath size="12" />
+                <span className="align-middle pl-1">3 Bathrooms</span>
+              </span>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 m-0">
+              <div class="badge badge-primary text-wrap d-block mb-1 p-2">
+                $ 1000 / month
+              </div>
               <button
                 type="button"
-                className="btn btn-dark btn-sm"
-                onClick={azalt}
+                className="btn btn-success btn-sm btn-block"
+                onClick={adet > 0 ? props.sepeteEkle : null}
               >
-                -
-              </button>
-              <button type="button" className="btn btn-default btn-sm">
-                {adet}
-              </button>
-              <button
-                type="button"
-                className="btn btn-dark btn-sm"
-                onClick={arttir}
-              >
-                +
+                <AiOutlineFileSearch /> More Info
               </button>
             </div>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 ">
-            <button
-              type="button"
-              className="btn btn-success btn-sm btn-block"
-              onClick={adet > 0 ? props.sepeteEkle : null}
-            >
-              <IoMdCart /> Add to cart
-            </button>
           </div>
         </div>
       </div>
