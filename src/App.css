@@ -1,5 +1,5 @@
 .container-gap {
-  margin-top: 8vh;
+  margin-top: 10vh;
 }
 
 .navbar-brand {
@@ -12,6 +12,11 @@
   border-top-right-radius: 10px !important;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  opacity: 0.8;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .card-img-top {

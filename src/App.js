@@ -76,6 +76,46 @@ function App() {
             title="Villa Shade"
             sepeteEkle={sepeteEkle}
           />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/242/480/320/4-villa-elif-305.jpg"
+            title="Villa Elif"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/1487/450/300/7-villa-aqua-192.jpg"
+            title="Villa Aqua"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/10/450/300/3villa-ares-134.jpg"
+            title="Villa Ares Tera"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/1988/450/300/villa-shade1-371.jpg"
+            title="Villa Shade"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/242/480/320/4-villa-elif-305.jpg"
+            title="Villa Elif"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/1487/450/300/7-villa-aqua-192.jpg"
+            title="Villa Aqua"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/10/450/300/3villa-ares-134.jpg"
+            title="Villa Ares Tera"
+            sepeteEkle={sepeteEkle}
+          />
+          <Item
+            image="https://www.hepsivilla.com/upload/catalog/1988/450/300/villa-shade1-371.jpg"
+            title="Villa Shade"
+            sepeteEkle={sepeteEkle}
+          />
         </div>
       </div>
     </div>

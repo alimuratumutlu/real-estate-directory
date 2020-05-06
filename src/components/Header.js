@@ -1,8 +1,6 @@
 import React from "react";
 import { IoMdCart } from "react-icons/io";
 
-import { FaMapMarkedAlt } from "react-icons/fa";
-
 import { IconButton } from "gestalt";
 import "gestalt/dist/gestalt.css";
 
