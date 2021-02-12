@@ -2,56 +2,12 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Item from "./components/Item";
 
-import { theme } from "@chakra-ui/core";
-
-// Let's say you want to add custom colors
-const customTheme = {
-  ...theme,
-  colors: {
-    ...theme.colors,
-    brand: {
-      900: "#1a365d",
-      800: "#153e75",
-      700: "#2a69ac",
-    },
-  },
-};
-
-import {
-  Avatar,
-  Badge,
-  Box,
-  Button,
-  Card,
-  Heading,
-  Link,
-  Text,
-  TextField,
-  SearchField,
-  Icon,
-  SegmentedControl,
-} from "gestalt";
-
-import "./App.css";
-
 function App() {
   const [birim, setBirim] = useState(0);
   const [itemIndex, setItemIndex] = React.useState(0);
 
-  const items = [
-    "News",
-    "You",
-    "Messages",
-    <Icon
-      icon="pin"
-      accessibilityLabel="Pin"
-      color={itemIndex === 3 ? "darkGray" : "gray"}
-    />,
-  ];
-
   const sepeteEkle = () => {
     setBirim(birim + 1);
-    console.log(birim);
   };
 
   const urunEkle = () => {};
@@ -59,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header adet={birim} />
-      <div className="container container-gap">
+      <div className="container container-gap pt-5 pt-5">
         <div className="row">
           <Item
             image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
@@ -67,7 +23,7 @@ function App() {
             sepeteEkle={sepeteEkle}
           />
           <Item
-            image="https://www.hepsivilla.com/upload/catalog/218/480/320/4-villa-star-kalkan-274.jpg"
+            image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
             title="Villa Star"
             sepeteEkle={sepeteEkle}
           />
@@ -82,7 +38,7 @@ function App() {
             sepeteEkle={sepeteEkle}
           />
           <Item
-            image="https://www.hepsivilla.com/upload/catalog/10/450/300/3villa-ares-134.jpg"
+            image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
             title="Villa Ares Tera"
             sepeteEkle={sepeteEkle}
           />
@@ -102,7 +58,7 @@ function App() {
             sepeteEkle={sepeteEkle}
           />
           <Item
-            image="https://www.hepsivilla.com/upload/catalog/10/450/300/3villa-ares-134.jpg"
+            image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
             title="Villa Ares Tera"
             sepeteEkle={sepeteEkle}
           />
@@ -122,7 +78,7 @@ function App() {
             sepeteEkle={sepeteEkle}
           />
           <Item
-            image="https://www.hepsivilla.com/upload/catalog/10/450/300/3villa-ares-134.jpg"
+            image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
             title="Villa Ares Tera"
             sepeteEkle={sepeteEkle}
           />

@@ -19,9 +19,8 @@ export default function Item(props) {
 
   return (
     <div
-      className="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 card-container"
-      style={{ cursor: "pointer" }}
-    >
+      className="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 card-container rounded"
+      style={{ cursor: "pointer" }} >
       <div className="card shadow mb-4" style={{ borderRadius: "100" }}>
         <img src={props.image} className="card-img-top" alt="..." />
         <div className="card-body">
@@ -42,16 +41,15 @@ export default function Item(props) {
               </span>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 m-0">
-              <div class="badge badge-success text-wrap d-block mb-1 p-2">
+              <div className="badge bg-success text-wrap d-block mb-1 p-2">
                 $ 1000 / month
               </div>
-              <button
-                type="button"
-                className="btn btn-primary btn-sm btn-block"
+              <div
+                className="badge bg-primary text-wrap d-block mb-1 p-2"
                 onClick={adet > 0 ? props.sepeteEkle : null}
               >
                 <AiOutlineFileSearch /> More Info
-              </button>
+              </div>
             </div>
           </div>
         </div>
