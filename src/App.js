@@ -13,9 +13,9 @@ function App() {
   const urunEkle = () => {};
 
   return (
-    <div className="App">
+    <>
       <Header adet={birim} />
-      <div className="container container-gap pt-5 pt-5">
+      <div className="container container-gap pt-5 pt-5 pt-5 pt-5">
         <div className="row">
           <Item
             image="https://www.hepsivilla.com/upload/catalog/127/450/300/1-villa-tas-konak-807.jpg"
@@ -89,7 +89,7 @@ function App() {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
