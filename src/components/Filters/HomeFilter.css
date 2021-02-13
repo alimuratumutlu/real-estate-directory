@@ -1,0 +1,35 @@
+.mu-masthead {
+  padding: 8rem;
+  background: linear-gradient(165deg, #f8f9fa 50%, #fff 50%);
+  margin-top: 60px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1568707126892-99e6470ce9bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  color: #ffff;
+}
+
+.mu-masthead h1 {
+  font-size: 2rem;
+}
+
+.mu-masthead h1 {
+  font-size: calc(1.525rem + 2.3vw);
+  line-height: 1;
+}
+
+.mu-masthead .btn {
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(109, 109, 109); /* Black background with opacity */
+  z-index: -2; /* Specify a stack order in case you're using a different order for other elements */
+}

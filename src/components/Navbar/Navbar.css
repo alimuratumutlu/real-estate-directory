@@ -1,0 +1,17 @@
+.iconCustom {
+  padding: 2px;
+}
+
+.navbarBrandCustom {
+  /* background-color: #FF5A5F; */
+  color: #ff5a5f !important;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnLightBlue,
+.btnLightBlue:hover {
+  border-radius: 40px;
+  border-color: #7e7e7e;
+}
