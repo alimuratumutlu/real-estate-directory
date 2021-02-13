@@ -77,7 +77,7 @@ function App() {
     <>
       <Navbar adet={birim} />
       <HomeFilter />
-      <div className="container container-gap pt-5 pt-5 pt-5 pt-5">
+      <div className="container container-gap pt-4">
         <div className="row">
           {items.map((item) => {
             return (
