@@ -13,17 +13,6 @@ const Header = () => {
         <a className="navbarBrandCustom navbar-brand" href="/">
           <FaOpencart size={28} /> airbaba
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-link active" aria-current="page" href="/">
@@ -72,10 +61,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <button type="button" className="btnLightBlue btn btn-light">
+        <span className="btnLightBlue btn btn-light">
+          <BiSearchAlt size={24} className="mobileOnly me-2" />
           <FiShoppingCart size={24} className="iconCustom me-2" />
           <FaRegUserCircle size={24} className="iconCustom" />
-        </button>
+        </span>
       </div>
     </nav>
   );
