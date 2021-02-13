@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+
 import Navbar from "./components/Navbar";
 import Item from "./components/Item";
 import HomeFilter from "./components/Filters/HomeFilter";
+import Footer from "./components/Footer";
 
 function App() {
   const [birim, setBirim] = useState(0);
@@ -90,6 +92,7 @@ function App() {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -19,15 +19,15 @@ export default function Item(props) {
 
   return (
     <div
-      className="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 card-container rounded"
+      className="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 card-container rounded"
       style={{ cursor: "pointer" }}
     >
       <div className="card shadow mb-4" style={{ borderRadius: "100" }}>
         <img src={props.image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
+          <h6 className="card-title">{props.title}</h6>
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 m-0 details text-secondary">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 m-0 details text-secondary mb-2">
               <span className="d-block">
                 <BsPersonFill size="12" />
                 <span className="align-middle ps-1">6 People</span>

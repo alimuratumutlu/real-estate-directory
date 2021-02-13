@@ -58,7 +58,7 @@ export default function HomeFilter() {
             <div className="col-md-8 order-md-1 col-lg-7 text-center text-md-start">
               <h1 className="mb-3">Go near</h1>
               <button className="btn btn-light btnLightBlue">
-                Explore & Buy nearby homes
+                Explore & Buy Homes
               </button>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function HomeFilter() {
           <div className="col-md-2">
             <div className="d-grid gap-2">
               <button className="btn btn-warning" type="button">
-                <BiSearchAlt /> Detailed Search
+                <BiSearchAlt />
               </button>
             </div>
           </div>
