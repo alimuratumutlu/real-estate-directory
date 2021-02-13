@@ -2,6 +2,7 @@ import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaOpencart } from "react-icons/fa";
+import { BiSearchAlt } from "react-icons/bi";
 
 import "./Navbar.css";
 
@@ -35,9 +36,44 @@ const Header = () => {
               Pricing
             </a>
           </div>
+          <div style={{ width: "60%" }}>
+            <div class="input-group">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="What are you looking for..."
+                aria-label="What are you looking for..."
+                aria-describedby="button-addon2"
+                style={{
+                  borderTopLeftRadius: "20px",
+                  borderBottomLeftRadius: "20px",
+                  borderTopWidth: 2,
+                  borderBottomWidth: 2,
+                  borderColor: "#ff5a5f",
+                }}
+              />
+              <button
+                className="btn btn-primary"
+                style={{
+                  borderTopRightRadius: "20px",
+                  borderBottomRightRadius: "20px",
+                  fontWeight: 600,
+                  borderTopWidth: 2,
+                  borderBottomWidth: 2,
+                  borderLeftWidth: 2,
+                  borderColor: "#ff5a5f",
+                  backgroundColor: "#ff5a5f",
+                }}
+                type="button"
+                id="button-addon2"
+              >
+                <BiSearchAlt size={24} /> Search
+              </button>
+            </div>
+          </div>
         </div>
         <button type="button" className="btnLightBlue btn btn-light">
-          <FiShoppingCart size={24} className="iconCustom" />
+          <FiShoppingCart size={24} className="iconCustom me-2" />
           <FaRegUserCircle size={24} className="iconCustom" />
         </button>
       </div>

@@ -19,8 +19,9 @@ export default function Item(props) {
 
   return (
     <div
-      className="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 card-container rounded"
-      style={{ cursor: "pointer" }} >
+      className="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 card-container rounded"
+      style={{ cursor: "pointer" }}
+    >
       <div className="card shadow mb-4" style={{ borderRadius: "100" }}>
         <img src={props.image} className="card-img-top" alt="..." />
         <div className="card-body">
