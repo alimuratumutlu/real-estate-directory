@@ -10,3 +10,8 @@
 .text-right {
   float: right;
 }
+
+.githubButton {
+  border-radius: 20px;
+  border-color: #7e7e7e;
+}
