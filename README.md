@@ -13,8 +13,7 @@
 ![Views](https://img.shields.io/github/search/muratumutlu/villacart/villacart)
 ![Open Pull Requests](https://badgen.net/github/open-prs/muratumutlu/villacart)
 
-![screenshot](https://user-images.githubusercontent.com/6642361/81122690-1ae03d80-8f3a-11ea-80f1-9aa6fbf7aab3.png)
-
+![screenshot](https://user-images.githubusercontent.com/6642361/107864972-21112c00-6e73-11eb-96e3-52d6478301a2.png)
 
 
 
