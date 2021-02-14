@@ -1,6 +1,6 @@
 # Villa Cart 🏠
 
-# Access on: https://villacart.now.sh/
+# Access on: https://airbnb.muum.dev
 
 [![GitHub stars](https://img.shields.io/github/stars/muratumutlu/villacart.svg)](https://github.com/muratumutlu/villacart/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/muratumutlu/villacart.svg)](https://github.com/fmuratumutlu/villacart/network/members)
